@@ -19,7 +19,6 @@ body {
   font-family: var(--font1);
 }
 
-
 body {
   background-color: var(--color1);
   color: var(--color2);
@@ -147,4 +146,26 @@ img.logo {
 
 img.logo:hover {
   filter: drop-shadow(2px 2px 2px var(--color5));
+}
+
+.list-of-objects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.object-preview {
+  border: 1px solid #888;
+  padding: 0.5em;
+}
+
+.object-picture {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.description {
+  display: block;
+  min-height: 2em;
 }
