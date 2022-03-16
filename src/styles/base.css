@@ -167,5 +167,6 @@ img.logo:hover {
 
 .description {
   display: block;
-  min-height: 2em;
+  font-size: 0.9em;
+  padding-top: 0.5em
 }
