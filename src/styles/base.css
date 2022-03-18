@@ -159,13 +159,29 @@ img.logo:hover {
   padding: 0.5em;
 }
 
-.object-picture {
+.object-preview .object-picture {
   width: 100px;
   height: 100px;
   background-color: gray;
 }
 
-.description {
+.object-preview .description {
+  display: block;
+  font-size: 0.9em;
+  padding-top: 0.5em
+}
+
+.object-detail {
+  
+}
+
+.object-detail .object-picture {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.object-detail .description {
   display: block;
   font-size: 0.9em;
   padding-top: 0.5em
